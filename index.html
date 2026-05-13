@@ -1,222 +1,206 @@
-<!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Madisen Johnson</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madisen Johnson — PhD Candidate</title>
+  <meta name="description" content="Personal site of Madisen Johnson, astrophysicist working on molecular clouds at Rutgers University.">
 
-		<!-- Header -->
-			<div id="header">
+  <!-- Fonts: Fraunces (display), Newsreader (body), IBM Plex Sans/Mono (UI) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,0..100;1,9..144,300..700,0..100&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 
-				<div class="top">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="images/IMG_7213.jpg" alt="" /></span>
-							<h1 id="title">Madisen Johnson</h1>
-							<p>Astrophysics Ph.D. Student</p>
-						</div>
+  <!-- ========== Navigation ========== -->
+  <nav class="site-nav" aria-label="Primary">
+    <div class="site-nav-inner">
+      <a href="index.html" class="brand" aria-label="Home">
+        <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true">
+          <ellipse cx="12" cy="12" rx="11" ry="4.5"/>
+          <ellipse cx="12" cy="12" rx="11" ry="4.5" transform="rotate(60 12 12)"/>
+          <circle cx="12" cy="12" r="2.2"/>
+        </svg>
+        <span>Madisen Johnson</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html" aria-current="page">About</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Introduction</span></a></li>
-								<li><a href="#about" id="portfolio-link"><span class="icon solid fa-user">About Me</span></a></li>
-								<li><a href="#research" id="about-link"><span class="icon solid fa-th">Research</span></a></li>
-								<li><a href="#publications" id="about-link"><span class="icon solid fa-th">Publications</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
+  <!-- ========== Hero ========== -->
+  <main class="page-wide">
 
-				</div>
+    <section class="hero">
+      <div class="hero-box">
+        <div class="hero-text">
+          <p class="eyebrow">Madisen Johnson · Astrophysicist</p>
+        
+          <h1 class="display">
+            I study how gas becomes stars -
+            starting with <em>molecular hydrogen</em>.
+          </h1>
 
-				<div class="bottom">
+          <dl class="hero-meta">
+            <dt>Position</dt>
+            <dd>PhD Candidate, Department of Astronomy</dd>
+            <dt>Institution</dt>
+            <dd>Rutgers University</dd>
+            <dt>Based in</dt>
+            <dd>New Jersey, USA</dd>
+            <dt>Reach me</dt>
+            <dd><a href="mailto:madisen.johnson@rutgers.edu">madisen.johnson@rutgers.edu</a></dd>
 
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="mailto: madisenmjohnson@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							<li><a href="https://www.linkedin.com/in/madisen-johnson/" class="icon brands fa-linkedin"><span class="label">Github</span></a></li>
-							<li><a href="https://github.com/madisenjohnson" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						</ul>
+          </dl>
+        </div>
+      </div>
+    </section>
 
-				</div>
+    <!-- ========== Currently / News ========== -->
+    <section class="recently">
 
-			</div>
+      <h2 class="section-title">Recently</h2>
 
-		<!-- Main -->
-			<div id="main">
+      <div class="recently-content">
+    
+        <div class="recently-art">
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+          <svg class="ism-art" viewBox="0 0 400 400" aria-hidden="true">
+            <!-- Glow gradient -->
+            <defs>
+              <radialGradient id="cloudGrad" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#3f6b7a" stop-opacity="0.35"/>
+                <stop offset="60%" stop-color="#2a4a5c" stop-opacity="0.2"/>
+                <stop offset="100%" stop-color="transparent"/>
+              </radialGradient>
+            </defs>
 
-							<header>
-								<h2 class="alt"><strong>Madisen Johnson</strong></h2>
-								<p>First year graduate student studying astrophysics at Rutgers University.</p>
-							</header>
+            <!-- Diffuse cloud blobs -->
+            <ellipse cx="200" cy="200" rx="150" ry="90" fill="url(#cloudGrad)" />
+            <ellipse cx="160" cy="220" rx="110" ry="70" fill="url(#cloudGrad)" />
+            <ellipse cx="240" cy="180" rx="100" ry="60" fill="url(#cloudGrad)" />
 
-							<footer>
-								<a href="#about" class="button scrolly">Learn More</a>
-							</footer>
+            <!-- Filamentary structure -->
+            <g class="filaments-rotate">
+              <g class="filaments">
+                <path d="M40,220 Q120,140 200,200 T360,210" />
+                <path d="M60,260 Q140,180 240,240 T340,250" />
+                <path d="M50,180 Q130,120 220,170 T350,190" />
+              </g>
+            </g>
 
-						</div>
-					</section>
+            <!-- Dense clumps -->
+            <g class="clumps">
+              <circle cx="150" cy="200" r="6"/>
+              <circle cx="230" cy="170" r="5"/>
+              <circle cx="210" cy="240" r="4"/>
+            </g>
 
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
+            <!-- Embedded stars -->
+            <g class="stars">
+              <circle cx="170" cy="210" r="2.5"/>
+              <circle cx="260" cy="190" r="2"/>
+              <circle cx="220" cy="260" r="2.2"/>
+            </g>
 
-							<header>
-								<h2>About Me</h2>
-							</header>
+          </svg>
+        </div>
+      <div class="recently-feed">
+        <ul class="feed">
+          <li>
+            <span class="feed-date">May 2026</span>
+            <p class="feed-text">
+              Attending the Olympian Symposium in Paralia Katerina, Greece presenting a poster
+              on the radiation field dependence of molecular hydrogen in solar metallicity ISM.
+            </p>
+          </li>
+          <li>
+            <span class="feed-date">Oct 2025</span>
+            <p class="feed-text">
+              Paper published in ApJ titled "A Tentative Detection of Molecular Hydrogen (H2) 
+              Emission Lines at Cosmic Dawn"
+            </p>
+          </li>
+          <li>
+            <span class="feed-date">Oct 2025</span>
+            <p class="feed-text">
+                Passed qualifying exam and officially acheived candidacy!
+            </p>
+          </li>
+          <li>
+            <span class="feed-date">Jul 2025</span>
+            <p class="feed-text">
+              Presented  "H2 From Nearby Clouds to the First Galaxies" at the Interstellar 
+              Institute 7 in Paris, France.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-							<p>I am a passionate and motivated first year astrophysics graduate student at Rutgers University. I completed my undergrate
-								education at the University of Wisconsin-Madison in 2023 with an Astronomy-Physics B.S. </p>
-							<p>My research focuses on molecular cloud formation and evolution through analysis of atomic and molecular hydrogen gas. 
-								I love programming and data analysis to solve important and interesting questions about the universe around us.</p>
-							<p>Outside of school and research , I love to spend time with my family and my dog! I also enjoy reading, playing piano, 
-								and playing video games with friends!</p>
+    <!-- ========== About ========== -->
+    <section class="about">
 
-							<a href="#" class="image featured"><img src="images/ProfilePhoto.jpg" alt="" /></a>
+      <h2 class="section-title">About</h2>
 
-						</div>
-					</section>
+      <div class="about-content">
+        <div class="about-text prose">
+          
+          <p class="lead">
+            My research focuses on the lifecycle of molecular hydrogen in galaxies and
+            the physical processes that regulate the transition between atomic and molecular gas.
+          </p>
 
-				<!-- Research -->
-					<section id="research" class="two">
-						<div class="container">
+          <p>
+            I study how molecular gas forms, evolves, and is destroyed in the
+            interstellar medium by combining numerical simulations with analytic
+            modeling. My work explores how environmental factors such as radiation
+            fields, density structure, and metallicity shape the HI–H<sub>2</sub>
+            transition and set the conditions for star formation.
+          </p>
 
-							<header>
-								<h2>Research</h2>
-							</header>
-							
-							<a href="#" class="image featured"><img src="images/ngc300.jpeg" alt="" /></a>
-							<p><u>H<sub>2</sub> Formation and Destruction</u></p>
-							<p>Research Advisor: Dr. Blakesley Burkhart (Rutgers University)</p>
-							<p> Molecular hydrogen plays an important role in the formation and evolution of stars and galaxies. The star formation rate is strongly linked 
-							to with molecular hydrogen but it has not been determined whether this star formation is trigged by the cooling of gases through formation of molecular 
-							hydrogen or if self-gravitation occurs before cooling takes place. In order to answer these questions, further observations of the HI to H<sub>2</sub> transition 
-							are needed to understand the relationship between the formation and destruction rates of molecular hydrogen and the star formation rate. We are currently using the 
-							simulation of the Clouds of Theseus (Jefferson et al. 2021) to investigate these mysteries.</p>
-							
-							<a href="#" class="image featured"><img src="images/lmc.jpg" alt="" /></a>
-							<p><u>Cold HI in the Interstellar Medium</u></p>
-							<p>Research Advisors: Dr. Snezana Stanimirovic (University of Wisconsin-Madison) and Dr. Min-Young Lee (Korean Astronomy and Space Science Institute)</p>
-							<p> Molecular clouds and the populations of stars they form are important to the formation and evolution of galaxies. Molecular clouds from out of the surrounding 
-							diffuse interstellar medium (ISM) through the transition of atomic hydrogen (HI) to molecular hydrogen (H<sub>2</sub>). In this process the cold atomic gas, also known 
-							as the Cold Neutral Medium (CNM) plays a particularly important role due to its ability to efficiently sheild and form molecular gas. To investigate the properties of 
-							the cold HI gas in and around molecular clouds we employ the use of the TIGRESS simulation (Kim & Ostriker 2017). </p>
-							
-							<a href="#" class="image featured"><img src="images/sun.jpg" alt="" /></a>
-							<p><u>Solar Wind Helium Abundance</u></p>
-							<p>Research Advisor: Dr. Yeimy Rivera (Harvard-Smithsonian Center for Astrophysics)</p>
-							<p> Properties of minor ions, like He<sup>2++</sup>, in the solar wind are imprinted with properties of source regions on the sun as well as mechanisms connected to 
-							heating and acceleration of the solar wind. This makes them sensitive markers of the solar wind's origin and formation at the sun. Using the Solar Probe Cup on the Parker 
-							Solar Probe (the closest we have ever been to the sun!), a detailed analysis of particle velocity distribution functions can help to investigate periods where significant 
-							and persistent helium peaks are observed to determine distinctive characteristics of the solar wind during these periods.</p>
+          <p>
+            I also connect these theoretical models to observations, including
+            fluorescence signatures of H<sub>2</sub> in high-redshift galaxies observed
+            with JWST, with the goal of understanding how molecular gas behaves in the
+            early universe.
+          </p>
 
-						</div>
-					</section>
-				<!-- Publications -->
-					<section id="publications" class="three">
-						<div class="container">
+          <p>
+            I am currently a 3rd year astronomy and physics PhD candidate at Rutgers University. I completed my
+            undergraduate degree in astrophysics at the University of Wisconsin–Madison.
+          </p>
 
-							<header>
-								<h2>Publications</h2>
-							</header>
+          <p style="margin-top: 2rem;">
+            <a href="research.html">Read about my research &rarr;</a>
+          </p>
+        </div>
+       <div class="about-photo">
+          <img src="images/headshot.png" alt="Madisen Johnson" class="profile-pic">
+        </div>
+      </div> 
+    </section>
 
-							<p> "Probing the Properties of the Cold HI Surrounding Molecular Clouds Using TIGRESS and GNOMES" (In prep), Johnson et al. </p>
-							<p> "Helium Abundance Periods Observed By the Solar Probe Cup on Parker Solar Probe" (In prep), Johnson et al. </p>
-							
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/20211109.jpg" alt="" /></a>
-										<header>
-											<h3>Heliophysics and the Solar Wind</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/AGU2022.jpg" alt="" /></a>
-										<header>
-											<h3>Presentation of solar work at AGU 2022</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/HICOMap_Perseus.png" alt="" /></a>
-										<header>
-											<h3>Perseus Molecular Cloud</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/postersim.png" alt="" /></a>
-										<header>
-											<h3>TIGRESS simulation (Kim & Ostriker 2017)</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/Jefferson.jpg" alt="" /></a>
-										<header>
-											<h3>Clouds of Theseus (Jefferson et al. 2021)</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/2DRadiusBinned.png" alt="" /></a>
-										<header>
-											<h3>Galactocentric binned clouds</h3>
-										</header>
-									</article>
-								</div>
-							</div>
+  </main>
 
-						</div>
-					</section>
+  <!-- ========== Footer ========== -->
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <div>© 2026 Madisen Johnson <span class="glyph">·</span> Last updated May 2026</div>
+      <div>
+        <a href="mailto:madisenmjohnson@gmail.com">Email</a> &nbsp;·&nbsp;
+        <a href="https://orcid.org/0009-0004-0577-2496">ORCID</a> &nbsp;·&nbsp;
+        <a href="https://github.com/madisenjohnson">GitHub</a>
+      </div>
+    </div>
+  </footer>
 
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
-
-							<header>
-								<h2>Contact</h2>
-							</header>
-
-							<p> Contact me at my email: mmj113@physics.rutgers.edu.</p>
-
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Footer -->
-			<div id="footer">
-
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>
